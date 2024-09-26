@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.board-cell {
+    @apply select-none cursor-pointer font-mono text-6xl leading-none px-5 py-2 border-r border-b
+}
